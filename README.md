@@ -9,18 +9,23 @@ This repository provides an improved and validated tractor-semi trailer combinat
 ## ✨ Features
 
 📏 Realistic Vehicle Dimensions
+
 The tractor and trailer geometries closely match real-world counterparts, improving the validity of simulation data and enabling more accurate comparisons with physical tests.
 
 ⚙️ Custom Heavy Vehicle Dynamics
+
 The steering and powertrain systems have been adapted to better reflect the behavior of articulated heavy vehicles.
 
 🧪 Validated with Real-World Data
+
 The vehicle model has been validated using measurement data from a real DAF XF95 truck, ensuring high fidelity in behavior and dynamics.
 
 🧩 Full Source Integration for CARLA 0.9.14
+
 The model is compiled directly into CARLA from source, with support for Ubuntu 23.04 — bypassing the limitations of older builds and making development more accessible.
 
 🛠️ Fully Packaged Simulator 
+
 A distribution-ready version of CARLA with the integrated model can be built and shared easily for simulation and testing use cases.
 
 ---
