@@ -1,8 +1,8 @@
-# 🚛 Improved and Validated Tractor-Trailer Vehicle for CARLA Simulator
-
-![TractorSemitrailer](TractorSemitrailer.png)
+# 🚛 Improved and Validated Tractor-Semitrailer Vehicle for CARLA Simulator
 
 This repository provides an improved and validated tractor-semi trailer combination model for the [CARLA Simulator](https://carla.org/), based on the source build of CARLA 0.9.14 using Ubuntu 23.04. It includes fixes to existing blueprint issues, addressing several limitations found in earlier implementations and a complete integration workflow for custom vehicle addition and simulator packaging.
+
+![TractorSemitrailer](TractorSemitrailer.png)
 
 ---
 
