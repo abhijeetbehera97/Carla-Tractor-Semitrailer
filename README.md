@@ -10,15 +10,15 @@ This repository provides an improved and validated tractor-semi trailer combinat
 
 📏 Realistic Vehicle Dimensions
 
-The tractor and trailer geometries closely match real-world counterparts, improving the validity of simulation data and enabling more accurate comparisons with physical tests.
+The tractor and trailer geometries closely match real-world counterparts (DAF XF95), improving the validity of simulation data and enabling more accurate comparisons with physical tests.
 
 ⚙️ Custom Heavy Vehicle Dynamics
 
-The steering and powertrain systems have been adapted to better reflect the behavior of articulated heavy vehicles.
+The steering of a Firetruck found within CARLA and powertrain curve from PACCAR MX-11 330 engine have been used to better reflect the behavior of articulated heavy vehicles.
 
 🧪 Validated with Real-World Data
 
-The vehicle model has been validated using measurement data from a real DAF XF95 truck, ensuring high fidelity in behavior and dynamics.
+The vehicle model has been validated using measurement data from DAF XF95 truck, ensuring high fidelity in behavior and dynamics.
 
 🧩 Full Source Integration for CARLA 0.9.14
 
@@ -52,10 +52,10 @@ Follow [CARLA’s build instructions](https://carla.readthedocs.io/en/0.9.14/bui
 
 ```bash
 sudo apt-get update && sudo apt-get install wget software-properties-common && sudo add-apt-repository ppa:ubuntu-toolchain-r/test && wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add – && sudo apt-get update
-sudo apt-add-repository "deb http://apt.llvm.org/focal/ llvm-toolchain-lunar main" sudo apt-get install build-essential clang-13 lld-13 g++-9 cmake ninja-build libvulkan1 python-is-python3 python-dev-is-python3 python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-13/bin/clang++ 180 && sudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-13/bin/clang 180
+sudo apt-add-repository "deb http://apt.llvm.org/lunar/ llvm-toolchain-lunar main" sudo apt-get install build-essential clang-13 lld-13 g++-9 cmake ninja-build libvulkan1 python-is-python3 python-dev-is-python3 python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-13/bin/clang++ 180 && sudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-13/bin/clang 180
 ```
 
-> Be careful while copying these commands. Some of the interpreters like clang, lld, g++ have different versions than what is specified on Carla's website. That is because they use a different Ubuntu version. For Ubuntu 23.04 (lunar), we used clang-13, lld-13, g++ -9 . You can find the corresponding packages from https://packages.ubuntu.com/search?keywords=ubuntu-software that suits your Ubuntu version. You should also change the repository address if you are using different ubuntu version. For example, if you are using lunar, you should use this "deb http://apt.llvm.org/lunar/ llvm-toolchain-lunar main".
+> Be careful while copying these commands. Some of the interpreters like clang, lld, g++ have different versions than what is specified on Carla's website. That is because they use a different Ubuntu version. For Ubuntu 23.04 (lunar), we used clang-13, lld-13, g++ -9 . You can find the corresponding packages from https://packages.ubuntu.com/search?keywords=ubuntu-software that suits your Ubuntu version. You should also change the LLVM repository address if you are using different ubuntu version. 
 
 2. **Install Python 3.7**
 
