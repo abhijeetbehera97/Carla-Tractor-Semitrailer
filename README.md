@@ -18,7 +18,7 @@ The steering of a Firetruck found within CARLA and powertrain curve from PACCAR 
 
 🧪 Validated with Real-World Data
 
-The vehicle model has been validated using measurement data from DAF XF95 truck, ensuring high fidelity in behavior and dynamics.
+The vehicle model has been validated using measurement data from DAF XF95 truck.
 
 🧩 Full Source Integration for CARLA 0.9.14
 
@@ -62,13 +62,19 @@ sudo apt-add-repository "deb http://apt.llvm.org/lunar/ llvm-toolchain-lunar mai
 * Required for compilation (source must find it at `/usr/local/bin/python3.7`)
 * Do **not** use virtualenv during build.
 
-3. **Set Unreal Path**
+3. **NO CHANGE: Install Other Python Dependencies as given in Build Instructions**
+
+4. **NO CHANGE: Install Unreal Engine following the Build Instructions**
+
+5. **NO CHANGE: Get the latest assets using the script given in Build Instructions**
+
+6. **Set Unreal Path**
 
 ```bash
 export UE4_ROOT=~/UnrealEngine_4.26
 ```
 
-Add this to `~/.bashrc`, and also manually to:
+In some cases, compiler will not be able to find Unreal. Hence, add this to `~/.bashrc`, and also manually to:
 
 * `util/BuildTools/BuildCarlaUE4.sh`
 * `util/BuildTools/Package.sh`
@@ -81,7 +87,7 @@ Add this to `~/.bashrc`, and also manually to:
 
 1. **Blueprints**
 
-Place these folders:
+Obtain the related files from this respository and place it in the following location:
 
 ```
 Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/
@@ -91,7 +97,7 @@ Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/
 
 2. **Static Meshes**
 
-Place here (create if missing):
+Obtain the related files from this respository and place here (create if missing):
 
 ```
 Unreal/CarlaUE4/Content/Carla/Static/Vehicles/4Wheeled/
