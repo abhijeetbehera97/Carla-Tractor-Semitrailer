@@ -60,7 +60,7 @@ sudo apt-add-repository "deb http://apt.llvm.org/lunar/ llvm-toolchain-lunar mai
 
 4. **NO CHANGE: Install Unreal Engine following the Build Instructions**
 
-5. **NO CHANGE: Get the latest assets using the script given in Build Instructions**
+5. **NO CHANGE: Clone the CARLA repository (if you don't have a precompiled version) and get the latest assets using the update script as given in Build Instructions**
 
 6. **Set Unreal Path**
 
@@ -72,6 +72,10 @@ In some cases, compiler will not be able to find Unreal. Hence, add this to `~/.
 
 * `util/BuildTools/BuildCarlaUE4.sh`
 * `util/BuildTools/Package.sh`
+
+7. **NO CHANGE: Compile the Python API client and the server following the Build Instructions**
+
+> Important note: In this step, the API cleint is compiled using the Python 3.7. If it is not present or could not be found in the system path, the compiler will use the version of Python that is found. In this case, it will throw a error as the API client can only be compiled successfully using Python 3.7. So make sure in Step 2, Python 3.7 is installed and present in the system path.  
 
 ---
 
@@ -98,6 +102,7 @@ Unreal/CarlaUE4/Content/Carla/Static/Vehicles/4Wheeled/
 ├── DAFTruck/
 └── Trailer/
 ```
+The above locations are present in the Carla root. 
 
 > 📌 Verify in Unreal Editor that `Trailer` has 6 functions, especially `Couple Tractor and Trailer` and `SetReverseGear`.
 
