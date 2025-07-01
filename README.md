@@ -79,7 +79,7 @@ In some cases, compiler will not be able to find Unreal. Hence, add this to `~/.
 
 ---
 
-## 🚚 Adding the Tractor-Trailer Model
+## 🚚 Adding the Tractor-Semitrailer Model
 
 ### Assets & Blueprints
 
