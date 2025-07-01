@@ -68,7 +68,7 @@ sudo apt-add-repository "deb http://apt.llvm.org/lunar/ llvm-toolchain-lunar mai
 export UE4_ROOT=~/UnrealEngine_4.26
 ```
 
-In some cases, compiler will not be able to find Unreal. Hence, add this to `~/.bashrc`, and also manually to:
+When compiler will not be able to find Unreal, add `UE4_ROOT=~/UnrealEngine_4.26` in the first line of following scripts:
 
 * `util/BuildTools/BuildCarlaUE4.sh`
 * `util/BuildTools/Package.sh`
