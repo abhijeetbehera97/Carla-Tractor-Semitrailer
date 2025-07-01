@@ -34,7 +34,7 @@ A distribution-ready version of CARLA with the integrated model can be built and
 
 To use or build this improved vehicle model, follow these summarized steps:
 
-### 1. Clone or Fork
+### Clone or Fork
 
 ```bash
 git clone https://github.com/abhijeetbehera97/Carla_TractorSemitrailer.git
