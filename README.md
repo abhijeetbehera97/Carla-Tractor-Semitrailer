@@ -110,19 +110,20 @@ The above locations are present in the Carla root.
 
 ## Python API demo files
 
-1. Copy `manual_controlSemiTrailer.py` to:
-
-```
-PythonAPI/examples/manual_controlSemiTrailer.py
-```
+1. Copy [python files](https://github.com/abhijeetbehera97/Carla_TractorSemitrailer/tree/main/Demo%20Files) and paste it in ``` PythonAPI/examples ```
 
 2. Run using:
 
 ```bash
-python3 manual_controlSemiTrailer.py
+python3 manual_control_TractorSemitrailer.py
+```
+or 
+
+```bash
+python3 generate_traffic_TractorSemitrailer.py
 ```
 
-> ✅ You **can** use virtualenv here. Make sure required packages are installed. It will be launch the vehicle in pygame. 
+> ✅ You **can** use virtualenv here. Make sure required packages are installed. The first file will launch a pygame window in town 10 map of CARLA. The second file will populate the town 03 with atleast 2 tractor-semitrailer combinations.  
 
 ---
 
