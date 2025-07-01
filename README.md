@@ -32,19 +32,13 @@ A distribution-ready version of CARLA with the integrated model can be built and
 
 ## 🛠️ Getting Started
 
-To use or build this improved vehicle model, follow these summarized steps:
-
-### Clone or Fork
-
-```bash
-git clone https://github.com/abhijeetbehera97/Carla_TractorSemitrailer.git
-````
+To use or build this improved vehicle model, follow these summarized steps. Detailed instructions can be found in [TractorSemitrailerBuild](CarlaBuildTractorSemitrailer.pdf).
 
 ---
 
 ## 🧱 Building CARLA from Source
 
-> ⚠️ Avoid using virtual environments or `sudo` commands during the Unreal build process unless explicitly instructed.
+> ⚠️ Avoid using virtual environments or `sudo` commands during the build process unless explicitly instructed.
 
 1. **Install Prerequisites**
 
