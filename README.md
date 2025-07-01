@@ -109,7 +109,7 @@ Unreal/CarlaUE4/Content/Carla/Static/Vehicles/4Wheeled/
 
 ---
 
-## 🐍 Python API demo files
+## Python API demo files
 
 1. Copy `manual_controlSemiTrailer.py` to:
 
