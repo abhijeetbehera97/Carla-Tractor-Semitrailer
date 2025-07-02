@@ -104,7 +104,7 @@ Unreal/CarlaUE4/Content/Carla/Static/Vehicles/4Wheeled/
 ```
 The above locations are present in the Carla root. 
 
-> 📌 Verify in Unreal Editor that `Trailer` has 6 functions, especially `Couple Tractor and Trailer` and `SetReverseGear`.
+> 📌 Verify in Unreal Editor that `Trailer` has 6 functions, especially `Couple Tractor and Trailer` and `SetReverseGear`. The Unreal can be launched using `make launch`.
 
 ---
 
