@@ -1,4 +1,4 @@
-# 🚛 Improved and Validated Tractor-Semitrailer Vehicle for CARLA Simulator
+# Improved and Validated Tractor-Semitrailer Vehicle for CARLA Simulator
 
 This repository provides an improved and validated tractor-semi trailer combination model for the [CARLA Simulator](https://carla.org/), based on the source build of CARLA 0.9.14 using Ubuntu 23.04. It includes fixes to existing blueprint issues, addressing several limitations found in earlier implementations and a complete integration workflow for custom vehicle addition and simulator packaging.
 
@@ -6,7 +6,7 @@ This repository provides an improved and validated tractor-semi trailer combinat
 
 ---
 
-## ✨ Features
+## Features
 
 📏 Realistic Vehicle Dimensions
 
@@ -30,13 +30,13 @@ A distribution-ready version of CARLA with the integrated model can be built and
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 To use or build this improved vehicle model, follow these summarized steps. Detailed instructions can be found in [TractorSemitrailerBuild](CarlaBuildTractorSemitrailer.pdf).
 
 ---
 
-## 🧱 Building CARLA from Source
+## Building CARLA from Source
 
 > ⚠️ Avoid using virtual environments or `sudo` commands during the build process unless explicitly instructed.
 
@@ -79,7 +79,7 @@ When compiler will not be able to find Unreal, add `UE4_ROOT=~/UnrealEngine_4.26
 
 ---
 
-## 🚚 Adding the Tractor-Semitrailer Model
+## Adding the Tractor-Semitrailer Model
 
 ### Assets & Blueprints
 
@@ -127,7 +127,7 @@ python3 generate_traffic_TractorSemitrailer.py
 
 ---
 
-## 📦 Packaging
+## Packaging
 
 You can package CARLA to make it distributable with your custom vehicle:
 
@@ -142,7 +142,7 @@ make project
 
 ---
 
-## 📎 Resources
+## Resources
 
 * [Original Project](https://github.com/DanielAtt2000/Tractor-Trailer-Vehicle-and-Roundabout-Dataset-Carla)
 * [Vehicle Mesh Source (modified)](https://github.com/frankeng/CarlaSemiTruckTrailer)
@@ -177,7 +177,7 @@ This project inherits CARLA’s [MIT License](https://github.com/carla-simulator
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 Thanks to:
 
