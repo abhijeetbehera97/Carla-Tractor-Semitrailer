@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # Copyright (c) 2019 Computer Vision Center (CVC) at the Universitat Autonoma de
 # Barcelona (UAB).
 #
