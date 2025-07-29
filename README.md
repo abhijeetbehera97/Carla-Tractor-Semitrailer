@@ -4,6 +4,8 @@ This repository provides an improved and validated tractor-semi trailer combinat
 
 ![TractorSemitrailer](TractorSemitrailer.png)
 
+![DemoVideo](demo.gif)
+
 ---
 
 ## Features
