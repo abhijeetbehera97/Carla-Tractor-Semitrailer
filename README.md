@@ -160,7 +160,7 @@ make project
 
 ## 🧾 Citation
 
-If you use this model in your research or development, please cite the following paper:
+If you use this model in your research or development, please cite following papers:
 
 ```bibtex
 @inproceedings{behera2025CARLA,
@@ -180,6 +180,7 @@ If you use this model in your research or development, please cite the following
       url={https://arxiv.org/abs/2507.04184}, 
 }
 ```
+Feel free to [email us](mailto:abhijeet.behera@vti.se) if you have any questions or notice any issues. If you have any suggestions for improvements or new features, we would be happy to hear from you.
 
 ---
 
@@ -195,5 +196,6 @@ Thanks to:
 
 * [DanielAtt2000](https://github.com/DanielAtt2000) for the initial implementation.
 * The CARLA community for forum support.
+
 
 
