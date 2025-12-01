@@ -137,7 +137,7 @@ You can package CARLA to make it distributable with your custom vehicle:
 * Method 2:
 
 ```bash
-make project
+make package
 ```
 
 > 🕐 Packaging may take several hours. Output will be in `Dist/`.
