@@ -170,14 +170,13 @@ If you use this model in your research or development, please cite following pap
   year={2025}
 }
 
-@misc{behera2025improved2dtimetocollisionarticulated,
-      title={An improved 2D time-to-collision for articulated vehicles: predicting sideswipe and rear-end collisions}, 
-      author={Abhijeet Behera and Sogol Kharrazi and Erik Frisk and Maytheewat Aramrattana},
-      year={2025},
-      eprint={2507.04184},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2507.04184}, 
+@article{behera2026twodimensional,
+  title = {Two-dimensional time-to-collision measures for articulated vehicles: Predicting sideswipe and rear-end collisions},
+  author = {Behera, Abhijeet and Kharrazi, Sogol and Frisk, Erik and Aramrattana, Maytheewat},
+  journal = {Transportation Research Interdisciplinary Perspectives},
+  volume = {39},
+  pages = {102236},
+  year = {2026}
 }
 ```
 Feel free to [email us](mailto:abhijeet.behera@vti.se) if you have any questions or notice any issues. If you have any suggestions for improvements or new features, we would be happy to hear from you.
